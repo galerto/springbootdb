@@ -15,6 +15,7 @@ public class User {
 
     private String name;
     private String email;
+    private int tel;
 
     @ManyToOne
     @JoinColumn(name = "school_id")
